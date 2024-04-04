@@ -1,5 +1,6 @@
 package com.example.exp2s5.model;
 
+import jakarta.annotation.Nonnull;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
@@ -16,18 +17,23 @@ public class Pelicula{
     @Column(name = "id")
     private Long id;
 
+    @Nonnull
     @Column(name = "titulo")
     private String titulo;
 
+    @Nonnull
     @Column(name = "anio")
     private int anio;
 
+    @Nonnull
     @Column(name = "director")
     private String director;
 
+    @Nonnull
     @Column(name = "genero")
     private String genero;
 
+    @Nonnull
     @Column(name = "sinopsis")
     private String sinopsis;
 
