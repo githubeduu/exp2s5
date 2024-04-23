@@ -1,4 +1,4 @@
-package com.example.exp2s5.service;
+package com.example.exp3s8.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -10,8 +10,8 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import static org.mockito.Mockito.when;
 import static org.mockito.ArgumentMatchers.any;
 
-import com.example.exp2s5.model.Pelicula;
-import com.example.exp2s5.repository.PeliculaRepository;
+import com.example.exp3s8.model.Pelicula;
+import com.example.exp3s8.repository.PeliculaRepository;
 
 @ExtendWith(MockitoExtension.class)
 public class PeliculaServiceTest {

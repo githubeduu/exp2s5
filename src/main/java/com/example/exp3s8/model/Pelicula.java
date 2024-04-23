@@ -1,4 +1,4 @@
-package com.example.exp2s5.model;
+package com.example.exp3s8.model;
 
 import jakarta.annotation.Nonnull;
 import jakarta.persistence.Column;

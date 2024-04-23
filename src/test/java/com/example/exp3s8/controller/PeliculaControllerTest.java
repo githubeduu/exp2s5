@@ -1,4 +1,4 @@
-package com.example.exp2s5.controller;
+package com.example.exp3s8.controller;
 
 import java.util.List;
 import java.util.Arrays;
@@ -14,8 +14,8 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 import static org.mockito.Mockito.when;
 
-import com.example.exp2s5.model.Pelicula;
-import com.example.exp2s5.service.PeliculaServicelmpl;
+import com.example.exp3s8.model.Pelicula;
+import com.example.exp3s8.service.PeliculaServicelmpl;
 
 @WebMvcTest(PeliculaController.class)
 public class PeliculaControllerTest {

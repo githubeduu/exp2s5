@@ -1,4 +1,4 @@
-package com.example.exp2s5.controller;
+package com.example.exp3s8.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,8 +11,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import com.example.exp2s5.model.Pelicula;
-import com.example.exp2s5.service.PeliculaService;
+import com.example.exp3s8.model.Pelicula;
+import com.example.exp3s8.service.PeliculaService;
 
 import java.util.stream.Collectors;
 import java.util.Collections;
