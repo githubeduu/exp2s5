@@ -9,12 +9,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>exp2s5</artifactId>
+	<artifactId>exp3s8</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>exp2s5</name>
+	<name>exp3s8</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>21</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -44,6 +44,30 @@
 			<artifactId>ojdbc11</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		 <dependency>
+        	<groupId>com.oracle.database.security</groupId>
+        	<artifactId>oraclepki</artifactId>
+        	<version>21.5.0.0</version>
+        	<scope>runtime</scope>
+    	</dependency>
+    	<dependency>
+        	<groupId>com.oracle.database.security</groupId>
+        	<artifactId>osdt_cert</artifactId>
+        	<version>21.5.0.0</version>
+        	<scope>runtime</scope>
+    	</dependency>
+    	<dependency>
+        	<groupId>com.oracle.database.security</groupId>
+        	<artifactId>osdt_core</artifactId>
+        	<version>21.5.0.0</version>
+        	<scope>runtime</scope>
+    	</dependency>
+		<dependency>
+    		<groupId>org.hamcrest</groupId>
+   			<artifactId>hamcrest</artifactId>
+    		<version>2.2</version>
+   			<scope>test</scope>
+		</dependency>		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
