@@ -1,0 +1,6 @@
+com\example\exp3s8\model\Pelicula.class
+com\example\exp3s8\service\PeliculaServicelmpl.class
+com\example\exp3s8\repository\PeliculaRepository.class
+com\example\exp3s8\service\PeliculaService.class
+com\example\exp3s8\Exp3s8Application.class
+com\example\exp3s8\controller\PeliculaController.class
